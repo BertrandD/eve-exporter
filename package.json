@@ -1,0 +1,23 @@
+{
+  "name": "eve-exporter",
+  "version": "0.0.1",
+  "author": "Bertrand Darbon <bertrand.darbon+github@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "build": "webpack -p -d"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "6.5.1",
+    "babel-loader": "6.2.2",
+    "babel-preset-es2015": "6.5.0",
+    "d3": "^3.5.15",
+    "lodash": "^4.3.0",
+    "webpack": "1.12.13"
+  }
+}
