@@ -3,7 +3,6 @@ module.exports = {
   output: {
     path: './dist',
     filename: 'app.js',
-    library: 'pu',
     libraryTarget: 'umd'
   },
   devtool: 'inline-source-map',
